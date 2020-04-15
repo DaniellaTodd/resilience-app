@@ -78,7 +78,7 @@ class Users {
     if (text===undefined)
       return false;
     text = text.toLowerCase();
-    if (("" + user.phone).indexOf(text)!=-1)
+    if (("" + user.phoneNumber).indexOf(text)!=-1)
       return true;
     if (("" + user.displayName).toLowerCase().indexOf(text) != -1)
       return true;
